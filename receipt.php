@@ -47,8 +47,14 @@
 				</div>
 				<div class="card-body">
 
+					<!-- Billing address -->
+					<div class="py-4 ml-4">
+						<h5 class="text-center"><b>Bil kepada:</b></h5>
+						<p class="text-center">Muhammad Ashraf bin Misran<br>Lot 3284-C Kampung Sungai Sekah,<br>71800 Nilai, Negeri Sembilan</p>
+					</div>
+
 					<!-- Billing content -->
-					<table class="table">
+					<table class="table table-responsive-sm">
 						<thead>
 							<tr>
 								<th>Bulan</th>
@@ -74,14 +80,9 @@
 					</table>	
 
 					<div class="row">
-						<!-- Billing address -->
-						<div class="col pt-4">
-							<h5><b>Bil kepada</b></h5>
-							<p>Lot 3284-C Kampung Sungai Sekah,<br>71800 Nilai,<br>Negeri Sembilan</p>
-						</div>
 
 						<!-- Total -->
-						<div class="col">
+						<div class="col offset-md-6">
 							<table class="table">
 								<tr><td>Jumlah kecil</td><td>RM220.00</td></tr>
 								<tr><td>Caj transaksi</td><td>RM2.00</td></tr>
