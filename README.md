@@ -1,6 +1,8 @@
 # khairat2u.com
+Khairat2u.com adalah sistem pengurusan khairat kematian yang dimiliki oleh KHAIRAT2U.COM berpengkalan di Temerloh, Pahang.
+
 ## Pengenalan
-Khairat2u.com adalah sistem pengurusan khairat kematian yang menyediakan modul berikut:
+Antara modul yang disediakan adalah:
 + Ahli khairat
 + Yuran
 + Pembayaran & Resit
