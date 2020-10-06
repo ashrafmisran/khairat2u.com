@@ -20,7 +20,7 @@
 						<li id="link-fee" class="nav-item">
 							<a href="index.php?p=fee">
 								<i class="fas fa-donate"></i>
-								<p>Yuran tahunan</p>
+								<p>Yuran</p>
 							</a>
 						</li>
 						<li id="link-receipt" class="nav-item">
