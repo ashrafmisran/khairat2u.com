@@ -29,9 +29,9 @@
 				</div>
 			</div>
 		</div>
-		<div class="col-md-8">
+		<div class="card col-md-8 p-3 mb-0" style="background: lightyellow">
 			<div class="row no-gutters">
-				<div class="card col-10 mb-2">
+				<div class="col-10 mb-2 bg-white">
 					<div class="card-body">
 						<div class="row">
 							<div class="col-9">Salam</div>
@@ -39,7 +39,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="card offset-2 col-10 mb-2">
+				<div class="offset-2 col-10 mb-2 bg-white">
 					<div class="card-body">
 						<div class="row">
 							<div class="col-9">Wassalam</div>
@@ -47,7 +47,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="card col-10 mb-2">
+				<div class="col-10 mb-2 bg-white">
 					<div class="card-body">
 						<div class="row">
 							<div class="col-9">Bayaran saya hari tu dah selesai kan?</div>
@@ -55,7 +55,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="card offset-2 col-10 mb-2">
+				<div class="offset-2 col-10 mb-2 bg-white">
 					<div class="card-body">
 						<div class="row">
 							<div class="col-9">Dah... tapi ada isu sikit untuk clearance (kat bank). Maybe ambik masa sikit dalam 3 hari. Hari tu dah call bank.</div>
@@ -63,7 +63,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="card offset-2 col-10 mb-2">
+				<div class="offset-2 col-10 mb-2 bg-white">
 					<div class="card-body">
 						<div class="row">
 							<div class="col-9">Nanti dah clear saya update tuan ye...☺. Tq</div>
@@ -72,8 +72,14 @@
 					</div>
 				</div>
 			</div>
-			<div class="card">
-				<input type="text" name="" class="form-control" autofocus>
+			<div class="input-group">
+				<div class="input-group-prepend">
+          			<div onclick="swal('Belum tersedia')" class="input-group-text"><span class="fas fa-smile"></span></div>
+        		</div>
+        		<input type="text" class="form-control" placeholder="Mesej..." autofocus>
+        		<div class="input-group-prepend">
+          			<div class="input-group-text"><span class="fas fa-paperclip"></span></div>
+        		</div>
 			</div>
 		</div>
 	</div>
