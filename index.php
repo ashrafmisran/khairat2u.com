@@ -67,7 +67,8 @@
 </head>
 <body>
 	<div class="wrapper">
-		<?php if(!isset($_SESSION['user'])) { 
+		<!--?php if(!isset($_SESSION['user'])) { -->
+		<?php if(TRUE) { 
 
 			if (!isset($_GET['p'])) {
 				include_once 'login.php'; 
