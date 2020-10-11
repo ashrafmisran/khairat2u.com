@@ -3,8 +3,8 @@
 include_once 'function.php';
 
 $s = $_POST; // alias
-$email		= $s['email'];
-$password	= crypt( $s['password'] , 'istiqamah');
+$email		= htmlspecialchars( $s['email'] );
+$password	= crypt( htmlspecialchars( $s['password'] ) , 'istiqamah');
 
 $sql = "SELECT id,fullname FROM users WHERE email = '$email' AND password = '$password'";
 
