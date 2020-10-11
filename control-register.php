@@ -3,12 +3,12 @@
 include_once 'function.php';
 
 $s = $_POST; // alias
-$fullname	= $s['fullname'];
-$no_ahli	= $s['no-ahli'];
-$mykad		= $s['mykad'];
-$kawasan	= $s['kawasan'];
-$email		= $s['email'];
-$password	= crypt( $s['password'] , 'istiqamah');
+$fullname	= htmlspecialchars( $s['fullname'] );
+$no_ahli	= htmlspecialchars( $s['no-ahli' )];
+$mykad		= htmlspecialchars( $s['mykad'] );
+$kawasan	= htmlspecialchars( $s['kawasan'] );
+$email		= htmlspecialchars( $s['email'] );
+$password	= crypt( htmlspecialchars( $s['password'] ) , 'istiqamah');
 
 $sql = "INSERT INTO users (fullname,no_ahli,mykad,kawasan,email,password) VALUES ('$fullname','$no_ahli','$mykad',$kawasan,'$email','$password')";
 
